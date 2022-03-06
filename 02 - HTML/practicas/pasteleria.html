@@ -1,40 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="css/pasteleria.css">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delicakes</title>
 </head>
-<style>
-    .Orden{
-        width: 100%;
-        height: 100%;
-        background-color: #d43b3b;
-        border-radius: 10px;
-        margin: 0 auto;
-        padding: 10px;
-      
-    }
-    .Main{
-        width: 100%;
-        height: 100%;
-        background-color: #76a4d8;
-        border-radius: 10px;
-        font-family: Comics Sans MS;
-        margin: 0 auto;
-        place-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    
-</style>
+
 <body>
+    <header>
+        
+       <img class="logo" src="./img/Logo pastelería pastelera ilustrado rosa y violeta.png" alt="Delicakes"  >
+    </header>
+   
+    <br>
+    <br>
+    <br>
     <div class="Main">
         <div style="background-color: aquamarine; border-radius: 10px;">
-    <h2 style="font-size: 100px">Nuestra especialidad</h2></div>
+    <h2 style="font-size: 80px" >Nuestra especialidad</h2></div>
+    <h2 style="border-radius10px;"></h2>
     <ul>
-        <li style="font-size: 40px; font">Pastel de chocolate</li>
+        <li style="font-size: 40px; ">Pastel de chocolate</li>
         <img src="https://th.bing.com/th/id/OIP.9r4S7HNeHXB6Jm-YaVP45AHaHa?pid=ImgDet&rs=1" alt="Pastel de chocolate" width="120px">
         <li style="font-size: 40px;">Pastel de fresa</li>
         <img src="https://i.pinimg.com/originals/9e/e2/ad/9ee2adfeb1cbbbc792c404411070859a.jpg" alt="Pastel de fresa" width="120px">
@@ -42,35 +30,13 @@
         <img src="https://www.solopostres.com/wp-content/uploads/2017/06/Pastel-de-Vainilla-01.jpg" alt="Pastel de vainilla" width="200px">
         
     </ul>
+    <a href="./pedido.html">
+        <input type="button" value="Hacer pedido" >
+    </a>
+    <br></br>
 </div>
 
-<div class="Orden">
-    <h2>Ordene aqui para llevar</h2>
-    <h1>Aqui se hace el pedido</h1>
-    <form action="pedido.js">
-        <label for="Nombre">Danos tu nombre </label><br>
-        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br><br>
-    <label for="mesa">Mesa</label><br>
-        <input type="number" name="mesa" id="mesa" placeholder="4">
-    
-    <p>Con vela o sin vela</p>
-        <input type="radio" value="aqui" name="aquiollevar" value="aqui">
-        <label for="aqui">Con vela</label>
-        <input type="radio" value="llevar" name="aquiollevar" value="llevar">
-        <label for="llevar">Sin vela</label>
-    
-    
-    <p>Lo quieres envuelto</p><br>
-    <input type="checkbox" id="mercurio" name="mercurio" value="mercurio" placeholder="Cuantos?"><br>
-    <label for="mercurio">Si</label><br>
-    <input type="checkbox" id="pollo" name="pollo" value="pollo" ><br>
-    <label for="pollo"placeholder="Cuantos?">No</label><br>
-    
-        
-    
-    </form>
-    
-    </div>
+
     
 </body>
 </html>
